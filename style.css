@@ -1,0 +1,73 @@
+:root {
+    --color-light: #ffffff;
+    --color-dark: #2a2a2a;
+    --color-accent: #028DD0;
+}
+
+
+.light-text {
+    color: var(--color-light) !important;
+    text-shadow: black 0px 1rem 30px;
+}
+
+.footer {
+    background-color: var(--color-accent);
+}
+
+
+
+.accent-text {
+    color: var(--color-accent) !important;
+}
+
+.bold-text {
+    font-weight: 800 !important;
+}
+
+body {
+    background-color: var(--color-light) !important;
+    color: var(--color-dark) !important;
+}
+
+.header-image > div[id^="jarallax"] > div {
+    background-image: url("assets/images/header1.jpg") !important;
+}
+
+.nav-link, h1, h2, h3, h4, h5, h6, p {
+    color: var(--color-dark) !important;
+    font-weight: 500 !important;
+}
+
+.nav-link:hover {
+    color: var(--color-accent) !important;
+}
+
+.contacts {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+.slide-content {
+    height: 28rem !important;
+    transition: 0.3s;
+    border-radius: 1rem !important;
+}
+
+
+.item-wrapper > img, .item-img {
+    height: 18rem !important;
+    border-radius: 1rem 1rem 1rem 1rem !important;
+    transition: 0.3s;
+}
+
+.item-wrapper > img:hover {
+    height: 19rem !important;
+    transition: 0.7s;
+}
+
+.item-title:hover {
+    height: 40rem !important;
+}
+
+ 
